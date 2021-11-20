@@ -1,4 +1,3 @@
-
 body{
     margin-top: 0px;
     margin-left: 0px;
@@ -29,20 +28,60 @@ body{
     color: #151515;
     background-color: #F58840;
     box-shadow: 0 0 0px 10px #F58840;
+    font-size: 27px;
 }
 
-.bg-img{
-    background-image:
+.bg-img{    background-image:
     url('https://jssonline.org/wp-content/uploads/2018/10/JSS-Science-and-Technology-University.jpg');
-    width: 100%;
-    height: 100%;
+    padding: 80px;
+
 }
 
 .bg-img h1{
+    color: #483434;
     margin: 0px;
-    padding-top:80px;
-    padding-bottom:600px;
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-left: 20px;
     text-align: center;
     font-family: sans-serif;
     font-size: 48px;
+    background-color: rgba(233, 201, 183, 0.644);
+    backdrop-filter: blur(3px);
+    border-radius: 20px;
+}
+
+.timetable {
+    margin: 15px;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+.timetable th {
+    border: 1px solid black;
+    margin:0px;
+    padding: 10px;
+    text-align: center;
+}
+
+.timetable td {
+    border: 1px solid black;
+    margin:0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    padding-right: 0px;
+        padding-left: 0px;
+}
+
+.timetable tr td hr{
+    margin: 0px;
+    /* padding: 4px; */
+    color: red;
+    border: 1px solid black;
+    border-collapse: collapse;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    
 }
