@@ -1,87 +1,106 @@
-body{
-    margin-top: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-bottom: 0px;
+body {
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
 }
 
-.top-navbar{
-    font-family: sans-serif;
-    background-color: #D06224;
-    padding: 10px;
+.top-navbar {
+  font-family: sans-serif;
+  background-color: #d06224;
+  padding: 10px;
 }
 
-.top-navbar a{
-    text-align: center;
-    margin: 20px;
-    color: white;
-    text-decoration: none;
-    font-weight: 600;
+.top-navbar a {
+  text-align: center;
+  margin: 20px;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
 }
 
-.top-navbar a.active{
-    background-color: #04AA6D;
-    color: white;
+.top-navbar a.active {
+  background-color: #04aa6d;
+  color: white;
 }
 
-.top-navbar a:hover{
-    color: #151515;
-    background-color: #F58840;
-    box-shadow: 0 0 0px 10px #F58840;
-    font-size: 27px;
+.top-navbar a:hover {
+  color: #151515;
+  background-color: #f58840;
+  box-shadow: 0 0 0px 10px #f58840;
+  font-size: 27px;
 }
 
-.bg-img{    background-image:
-    url('https://jssonline.org/wp-content/uploads/2018/10/JSS-Science-and-Technology-University.jpg');
-    padding: 80px;
-
+.bg-img {
+  background-image: url("https://jssonline.org/wp-content/uploads/2018/10/JSS-Science-and-Technology-University.jpg");
+  padding: 80px;
+  background-repeat: no-repeat;
 }
 
-.bg-img h1{
-    color: #483434;
-    margin: 0px;
-    padding-top:20px;
-    padding-bottom:20px;
-    padding-left: 20px;
-    text-align: center;
-    font-family: sans-serif;
-    font-size: 48px;
-    background-color: rgba(233, 201, 183, 0.644);
-    backdrop-filter: blur(3px);
-    border-radius: 20px;
+.bg-img h1 {
+  color: #483434;
+  margin: 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 48px;
+  background-color: rgba(233, 201, 183, 0.644);
+  backdrop-filter: blur(3px);
+  border-radius: 20px;
 }
 
 .timetable {
-    margin: 15px;
-    border-collapse: collapse;
-    border: 1px solid black;
+  margin: 15px;
+  border-collapse: collapse;
+  border: 1px solid black;
 }
 
 .timetable th {
-    border: 1px solid black;
-    margin:0px;
-    padding: 10px;
-    text-align: center;
+  border: 1px solid black;
+  margin: 0px;
+  padding: 10px;
+  text-align: center;
 }
 
 .timetable td {
-    border: 1px solid black;
-    margin:0px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    text-align: center;
-    padding-right: 0px;
-        padding-left: 0px;
+  border: 1px solid black;
+  margin: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  padding-right: 0px;
+  padding-left: 0px;
 }
 
-.timetable tr td hr{
-    margin: 0px;
-    /* padding: 4px; */
-    color: red;
-    border: 1px solid black;
-    border-collapse: collapse;
-    border-top-width: 0px;
-    border-left-width: 0px;
-    border-right-width: 0px;
-    
+.timetable tr td hr {
+  margin: 0px;
+  color: red;
+  border: 1px solid black;
+  border-collapse: collapse;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+}
+
+.p {
+  font-size: 20px;
+}
+
+.faculty {
+  margin: 15px;
+  border-collapse: collapse;
+  border: 1px solid black;
+  background-color: #f58840;
+}
+
+.faculty td {
+  border: 1px solid black;
+  margin: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  padding-right: 0px;
+  padding-left: 0px;
 }
