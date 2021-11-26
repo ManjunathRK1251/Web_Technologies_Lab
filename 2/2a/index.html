@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Student Feedback Form</title>
+  </head>
+  <body>
+    <h2>Student Feedback Form</h2>
+    <form>
+      Name:<br /><input type="text" name="name" size="15" /><br />
+
+      USN:<br /><input type="text" name="usn" size="15" /><br />
+      Gender:<br /><label
+        ><input type="radio" name="gender" value="male" />Male</label
+      >
+      <label><input type="radio" name="gender" value="female" />Female</label
+      ><br />
+
+      <label>Department:</label><br />
+      <select>
+        <option value="cse">CSE</option>
+        <option value="ec">EC</option>
+        <option value="others">Other</option></select
+      ><br />
+      Section:<br /><input type="radio" name="section" value="a" />A
+      <input type="radio" name="section" value="b" />B<br />
+      Interested in:<br /><input
+        type="checkbox"
+        name="interest"
+        value="sports"
+      />Sports <input type="checkbox" name="interest" value="art" />Art
+      <input type="checkbox" name="interest" value="singing" />Singing
+      <input type="checkbox" name="interest" value="dance" />Dance
+      <input type="checkbox" name="interest" value="others" />Others<br />
+      Review about College:<br /><textarea rows="2" cols="30">
+description.....</textarea
+      >
+      <br />
+      <br /><br />
+
+      <input type="submit" /> &nbsp <input type="reset" />
+    </form>
+  </body>
+</html>
