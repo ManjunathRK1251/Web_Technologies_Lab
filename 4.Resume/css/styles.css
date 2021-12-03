@@ -1,0 +1,30 @@
+body {
+  background-color: #eaf6f6;
+  margin-left: 30px;
+}
+
+hr {
+  border-style: dotted none none;
+  width: 5%;
+  border-style: none;
+  border-top-style: dotted;
+  border-color: gray;
+  border-width: 5px;
+}
+
+h1 {
+  color: #66bfbf;
+  font-family: sans-serif;
+  text-align: center;
+  /* margin-left: 30px; */
+}
+
+h3 {
+  color: #66bfbf;
+  font-family: sans-serif;
+  /* margin-left: 30px; */
+}
+
+.introduction {
+  text-align: center;
+}
