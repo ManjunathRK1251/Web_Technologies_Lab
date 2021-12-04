@@ -28,6 +28,7 @@ h1 {
   color: #292c6d;
   font-family: sans-serif;
   text-align: center;
+  text-shadow: 1px 1px 2px #292c6d, -1px -1px 1px #d2c7e4;
 }
 
 .introduction {
@@ -35,6 +36,8 @@ h1 {
   margin-right: auto;
   text-align: center;
   color: #396eb0;
+  font-size: 25px;
+  text-shadow: 1px 1px 1px #292c6d, -1px -1px 1px #d2c7e4;
 }
 
 .education ul li {
@@ -49,8 +52,9 @@ h1 {
 .education {
   margin-left: 15px;
   padding-bottom: 5px;
-  box-shadow: 4px 4px 10px #292c6d, -5px -5px 20px #d2c7e4;
+  box-shadow: 4px 4px 6px #292c6d, -5px -5px 5px #d2c7e4;
   border-radius: 10px;
+  text-align: center;
 }
 
 .projects {
@@ -65,6 +69,12 @@ h1 {
   padding: 3px;
   border-radius: 10px;
   margin-bottom: 5%;
+  box-shadow: 4px 4px 2px #292c6d, -3px -3px 5px #d2c7e4;
+  text-shadow: 1px 1px 3px #292c6d, -1px -1px 2px #d2c7e4;
+}
+
+.projects:hover {
+  box-shadow: 4px 4px 2px #292c6d inset, -3px -3px 5px #d2c7e4;
 }
 
 .skills {
@@ -74,16 +84,18 @@ h1 {
   color: black;
   flex-direction: row;
   margin-left: 0px;
-  margin-right: 0px;
+  margin-right: 20px;
   box-shadow: 4px 4px 6px #292c6d, -3px -3px 5px #d2c7e4;
+  /* text-align: center; */
 }
 
 ul > li {
   display: inline-block;
   zoom: 1;
   *display: inline;
-  box-shadow: 4px 4px 2px #292c6d inset, -3px -3px 5px #d2c7e4;
+  box-shadow: 4px 4px 2px #292c6d, -3px -3px 5px #d2c7e4;
   text-shadow: 3px 3px 2px #292c6d, -1px -1px 2px #d2c7e4;
+  margin-bottom: 10px;
 }
 
 a {
